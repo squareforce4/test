@@ -11,7 +11,7 @@ target_time = datetime.time(hour=0, minute=0, second=0)
 print("target", target_time)
 
 while True:
-    # 現在の時刻を取得する0000
+    # 現在の時刻を取得する00
     now = datetime.datetime.now(JST).time()
     print("now", now)
 
