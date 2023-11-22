@@ -3,7 +3,7 @@ import time
 import subprocess
 import pytz
 
-# JSTタイムゾーン011を設定する
+# JSTタイムゾーン0101を設定する
 JST = pytz.timezone('Asia/Tokyo')
 
 # 実行する時間を設定する（例：毎日の1午後050時）
