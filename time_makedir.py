@@ -18,7 +18,7 @@ while True:
     # 実行する時間になったらスクリプトを実行する
     if now >= target_time:
         subprocess.run(['python', 'makedir.py'])
-        # 待つ
+        #  待つ
         time.sleep(24 * 60 * 60)
     else:
         time.sleep(60)
