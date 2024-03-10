@@ -15,7 +15,7 @@ while True:
     now = datetime.datetime.now(JST).time()
     print("now", now)
 
-    # 実行する時間になったらスクリプトを実行する
+    # 実行する時間になったらスクリプト を実行する
     if now >= target_time:
         subprocess.run(['python', 'makedir.py'])
         #  待つ
